@@ -3,24 +3,32 @@ public class Lab_2_Task_4 {
     public static void main(String[] args) {
         // 1️⃣ Создаём исходный массив b
         int[][] A = {
-                {1, 3, 5, 1, 5, 6, 8},
-                {2, 4, 7, 2, 5, 7, 8},
-                {0, 5, 8, 3, 5, 7, 2},
-                {2, 4, 6, 1, 4, 6, 8},
-                {4, 6, 8, 3, 2, 5, 6},
-                {2, 4, 7, 2, 5, 7, 8},
+                {1, 4, 5, 1, 5, 6, -8},
+                {2, 4, -7, 2, 5, 7, 8},
+                {0, 5, 8, -3, -5, 7, 2},
+                {2, 4, 6, 1, -4, 6, 8},
+                {4, -6, 8, 3, 2, 4, 6},
+                {2, 4, 7, 2, -5, 7, 8},
                 {1, 4, 6, 7, 8, 3, 7}
         };
 
         int product = 1;
+        int cout = 0;
 
         for (int row = 0; row < A.length - 1; row++) {
             int col = row + 1;
+
+            if (A[row][col] < 0) {
+                continue;
+            }
             System.out.println(A[row][col]);
             product = product * A[row][col];
+            cout++;
         }
 
-        System.out.println(product);
+        double answer = (double) product / cout;
+
+        System.out.println(answer);
     }
 }
 
