@@ -1,4 +1,4 @@
-public class Task_2 {
+public class Lab_1_Task_2 {
     public static void main(String[] args) {
         // Проверяем, что переданы два аргумента
         if (args.length != 2) {
