@@ -1,0 +1,2 @@
+2025-12-04T17:40:47.511984300 - Bind: action = jump, key = SPACE
+2025-12-04T17:40:47.512993200 - Bind: action = shoot, key = LMB

@@ -1,0 +1,6 @@
+2025-12-04T17:42:15.038166300 - Bind: action = jump, key = SPACE
+2025-12-04T17:42:15.040166800 - Bind: action = shoot, key = LMB
+2025-12-04T17:44:03.972022900 - Bind: action = jump, key = SPACE
+2025-12-04T17:44:03.973035 - Bind: action = shoot, key = LMB
+2025-12-04T18:01:17.578350700 - Bind: action = jump, key = SPACE
+2025-12-04T18:01:17.580352400 - Bind: action = shoot, key = LMB
